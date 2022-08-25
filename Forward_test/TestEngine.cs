@@ -1,4 +1,6 @@
-﻿namespace Forward_test
+﻿using Forward_test.Model;
+
+namespace Forward_test
 {
     class TestEngine
     {
