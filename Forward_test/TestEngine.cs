@@ -11,7 +11,7 @@ namespace Forward_test
         public int StartTest(ICEngine engine, int ambientTemperature)
         { 
             engineTemperature = ambientTemperature;
-            double a = engine.M * engine.I;
+            double a = engine.M / engine.I;
             double eps = engine.overheatTemperature - engineTemperature;
             int time = 0;
             while(eps > ABSOLUTE_ERROR && time < maxTime)
